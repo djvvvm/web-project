@@ -21,7 +21,7 @@ function showSlides() {
                 slides[i].style.opacity = 0;
             }
         }
-    }, 5000);
+    }, 10000);
 }
 
 

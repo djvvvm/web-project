@@ -1,0 +1,83 @@
+.right-banner {
+    position: relative;
+    display: flex;
+    padding: 15px;
+}
+
+.right-banner__image {
+    position: relative;
+    flex: 1;
+}
+
+.right-banner__image img {
+    width: 700px;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+    border-radius: 25px;
+}
+
+.right-banner__image svg {
+    position: absolute;
+    top: 0;
+    left: -0.05%;
+    width: 15%;
+    height: 100%;
+    fill: white;
+    transform: rotateX(180deg) rotateY(180deg); 
+    border-radius: 0 25px 25px 0;
+}
+
+.right-banner__text {
+    flex: 1; 
+    padding: 75px 0;
+    margin-left: 25px;
+}
+
+.today-special {
+    font-size: 20px;
+    background-color: red;
+    color: var(--background-color);
+    padding: 0 3px;
+}
+
+.right-banner__text p:nth-of-type(2) span {
+    color: var(--search-button-color);
+}
+
+.right-banner__text p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.right-banner__text p:nth-of-type(2) {
+    font-size: 75px;
+}
+
+.right-banner__text p:nth-of-type(4) {
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.right-banner__text a {
+    background-color: var(--search-button-color);
+    width: 165px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    float: left;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 40px;
+    transition: background-color 0.5s ease;
+}
+
+.right-banner__text a:hover {
+    background-color: var(--black-text-color);
+}

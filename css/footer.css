@@ -1,0 +1,136 @@
+.support-banner {
+    position: relative;
+    display: flex;
+}
+
+.support-banner__image {
+    position: relative;
+    flex: 1;
+}
+
+.support-banner__text {
+    flex: 1; 
+    background-color: black;
+    color: white;
+    padding: 85px;
+}
+
+.support-banner__text span {
+    text-decoration: underline;
+}
+
+.support-banner__text p:first-of-type {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.support-banner__text p:last-of-type {
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.support-banner__text a {
+    background-color: var(--search-button-color);
+    width: 185px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    float: left;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    transition: background-color 0.5s ease;
+}
+
+.support-banner__text a:hover {
+    background-color: var(--white-text-color);
+    color: var(--black-text-color)
+}
+
+.support-banner__image img {
+    width: auto;
+    height: 445px;
+    object-fit: cover;
+    display: block;
+}
+
+.support-banner__image svg {
+    position: absolute;
+    bottom: 0.015%;
+    left: -2.5%;
+    width: 15%;
+    height: 85%;
+    fill: black;
+    transform: rotateX(180deg) rotateY(180deg); 
+}
+
+/* Styles for the footer */
+.footer {
+    background-color: var(--background-color);
+    color: var(--black-text-color);
+
+}
+
+/* Styles for the columns */
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles for individual column */
+.footer-column {
+    width: 25%;
+    margin: 75px 50px; /* Adjust width as needed */
+}
+
+/* Styles for links */
+.footer-column h4 {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.social-media__links {
+    margin-top: 15px;
+}
+
+.social-media__links a:hover {
+    text-decoration: none;
+}
+
+.social-media__links svg {
+    width: 23px;
+    height: 23px;
+    margin: 5px;
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    padding: 10px;
+}

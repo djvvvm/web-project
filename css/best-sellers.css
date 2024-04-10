@@ -1,12 +1,12 @@
-.best-sellers {
+.bs__section {
   margin: 120px 100px;
 }
 
-.best-sellers__title {
+.bs__title {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   font-size: 20px;
 }
 
@@ -88,7 +88,7 @@
 .view-all__button {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .view-all__button a{
