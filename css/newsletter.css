@@ -54,6 +54,7 @@
     border: none;
     font-size: 15px;
     transition: background-color 0.5s ease;
+    cursor: pointer;
 }
 
 .newsletter-form input:hover {

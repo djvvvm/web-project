@@ -23,7 +23,7 @@
     right: 0;
     width: 15%;
     height: 100%;
-    fill: white;
+    fill: var(--background-color);
     border-radius: 0 25px 25px 0;
 }
 

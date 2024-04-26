@@ -23,7 +23,7 @@
     left: -0.05%;
     width: 15%;
     height: 100%;
-    fill: white;
+    fill: var(--background-color);
     transform: rotateX(180deg) rotateY(180deg); 
     border-radius: 0 25px 25px 0;
 }

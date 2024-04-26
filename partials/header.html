@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header" id="header">
     <div class="header__prompt">
         <svg preserveAspectRatio="xMidYMid meet" data-bbox="33.2 33.397 133.9 133.103" viewBox="33.2 33.397 133.9 133.103" height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label=""><defs><style>#comp-km3aq0q0 svg [data-color="1"] {fill: #FFFFFF;}</style></defs>
             <g>
@@ -53,29 +53,70 @@
         </div>
         <div class="user-usage__category">
             <ul>
-                <li><a href="#">Всі Товари</a></li>
-                <li><a href="#">Побутова Техніка</a></li>
-                <li><a href="#">Телевізори</a></li>
-                <li><a href="#">Вбудована Техніка</a></li>
-                <li><a href="#">Дрібна Побутова Техніка</a></li>
-                <li><a href="#">Аксесуари</a></li>
-                <li><a href="#">Розпродаж</a></li>
+                <li><a href="#" class="drdbtn">Всі Товари</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="drdbtn">Побутова Техніка</button>
+                        <div class="dropdown-content">
+                            <a href="#">Пральні машини</a>
+                            <a href="#">Сушильні машини</a>
+                            <a href="#">Морозильні камери</a>
+                            <a href="#">Плити</a>
+                            <a href="#">Холодильники</a>
+                            <a href="#">Посудомийні машини</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" class="drdbtn">Телевізори</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="drdbtn">Вбудована техніка</button>
+                        <div class="dropdown-content">
+                            <a href="#">Духові шафи</a>
+                            <a href="#">Варильні поверхні</a>
+                            <a href="#">Вбудовані мікрохвильові печі</a>
+                            <a href="#">Витяжки</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="drdbtn">Дрібна побутова техніка</button>
+                        <div class="dropdown-content">
+                            <a href="#">Чайники</a>
+                            <a href="#">Блендери</a>
+                            <a href="#">Праски</a>
+                            <a href="#">Мясорубки</a>
+                            <a href="#">Кухонні комбайни</a>
+                            <a href="#">Електро грилі</a>
+                            <a href="#">Мультиварки</a>
+                            <a href="#">Тостери</a>
+                            <a href="#">Хлібопічки</a>
+                            <a href="#">Кавові машини</a>
+                            <a href="#">Міксери</a>
+                            <a href="#">Мікрохвильовки</a>
+                            <a href="#">Пилососи</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" class="drdbtn">Аксесуари</a></li>
+                <li><a href="#" class="drdbtn">Розпродаж</a></li>
             </ul>            
         </div>
     </div>
-    <div class="header__main">
-        <div class="header__main-image fade" style="background-image: url('img/header-main-1.jpeg');"></div>
-        <div class="header__main-image fade" style="background-image: url('img/header-main-2.jpeg');"></div>
-        <div class="header__main-image fade" style="background-image: url('img/header-main-3.jpeg');"></div>
-        <div class="header__main-text">
-            <span>Найкращі Ціни</span>
-            <h1>
-                Дивовижні ціни
-                <br>на ваші 
-                <br>улюблені товари
-            </h1>
-            <p>Більше за менше - на обраних брендах</p>
-            <a href="#">Придбати</a>
-        </div>
-    </div>
 </header>
+<div class="header__main">
+    <div class="header__main-image fade" style="background-image: url('img/header-main-1.jpeg');"></div>
+    <div class="header__main-image fade" style="background-image: url('img/header-main-2.jpeg');"></div>
+    <div class="header__main-image fade" style="background-image: url('img/header-main-3.jpeg');"></div>
+    <div class="header__main-text">
+        <span>Найкращі Ціни</span>
+        <h1>
+            Дивовижні ціни
+            <br>на ваші 
+            <br>улюблені товари
+        </h1>
+        <p>Більше за менше - на обраних брендах</p>
+        <a href="#">Придбати</a>
+    </div>
+</div>
