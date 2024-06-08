@@ -1,5 +1,10 @@
+/* Full Page CSS */
 @import "global.css";
 @import "header.css";
+@import "footer.css";
+
+/* Main Page CSS */
+@import "main-photo.css";
 @import "promo.css";
 @import "best-sellers.css";
 @import "category.css";
@@ -8,4 +13,5 @@
 @import "right-banner.css";
 @import "brands.css";
 @import "newsletter.css";
-@import "footer.css";
+
+

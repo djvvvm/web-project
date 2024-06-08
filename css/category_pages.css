@@ -1,0 +1,144 @@
+.breadcrumb {
+    margin-top: 175px;
+    padding: 5px 15px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb a:hover {
+    color: rgb(71 71 70);
+    text-decoration: underline;
+}
+
+.breadcrumb a,
+.breadcrumb span {
+    font-size: 14px;
+}
+
+.breadcrumb svg {
+    vertical-align: middle; 
+}
+
+.breadcrumb span {
+    text-decoration: underline;
+}
+
+.breadcrumb a:hover ~ span {
+    text-decoration: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 240px;
+    z-index: 1;
+    padding: 15px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav h2 {
+    font-size: 22px;
+    font-weight: 100;
+    margin: 15px 0px;
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+}
+
+.sidenav a {
+    display: block;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.sidenav a:hover {
+    text-decoration: underline;
+    color: rgb(71 71 70);
+}
+
+.main {
+    margin-left: 240px;
+    font-size: 28px; 
+    padding: 15px;
+}
+
+.main h1{
+    font-size: 50px;
+    margin: 13px 0px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.product {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px; 
+}
+
+.product a {
+    display: inline-block;
+    text-decoration: none;
+}
+  
+.product-name {
+    color: var(--black-text-color);
+    font-size: 17px;
+    font-weight: 100;
+}
+  
+.product-price {
+    color: var(--search-button-color);
+    font-size: 20px;
+    font-weight: 100;
+}
+  
+.product__text {
+    padding: 10px;
+}
+  
+.product__image {
+    position: relative;
+    overflow: hidden;
+    width: 320px; 
+    height: 320px; 
+    background-color: white;
+    padding: 90px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+  
+.sale-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 2px 12px;
+    border-radius: 25px;
+    z-index: 1;
+}
+  
+.product__image img {
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+.product__image:hover img {
+    transform: scale(1.25); 
+}
+  

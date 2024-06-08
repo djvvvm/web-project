@@ -15,6 +15,6 @@ $(document).ready(function() {
         }
     }
   });
-  $(".owl-prev").html('<img src="img/arrow-prev.svg" alt="Previous">');
-  $(".owl-next").html('<img src="img/arrow-next.svg" alt="Next">');
+  $(".owl-prev").html('<img src="img/index/arrow-prev.svg" alt="Previous">');
+  $(".owl-next").html('<img src="img/index/arrow-next.svg" alt="Next">');
 });
